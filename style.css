@@ -1,0 +1,200 @@
+@font-face {
+    font-family: "pokemon_figura";
+    src: url('../Fontes/Pokemon\ Alfabeto\ em\ Desenho/pokpix2-webfont.woff2') format('woff2'),
+         url('../Fontes/Pokemon\ Alfabeto\ em\ Desenho/pokpix2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "pokemon_letra";
+    src: url('../Fontes/Pokemon\ Letra/pokemon_x_and_y-webfont.woff2') format('woff2'),
+         url('../Fontes/Pokemon\ Letra/pokemon_x_and_y-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+title{
+    color: #6336cc;
+}
+
+body{
+    background-color: #6336cc;
+}
+
+header{
+    background-color: #6336cc;
+    display: block;
+    height: 15vh;
+    margin: 0 auto;
+    font-family: "pokemon_figura";
+}
+
+.titleBox{
+    padding: 25px;    
+    margin-left: 0px;
+}
+
+.titleBox h1{
+    font-size: 40px;
+    font-family: "pokemon_letra";
+    text-decoration: underline;
+}
+
+.titleBox h2{
+    font-family: "pokemon_figura";
+    font-size: 40px;
+}
+
+.titleBox h1, h2{    
+    display: inline;
+    margin-right: 30px;
+}
+
+.caract{
+    font-family: "pokemon_letra";    
+    font-weight: 600;        
+    position: absolute;
+    right: 5vw;
+    top: 5vh;
+}
+
+.caract h3{
+    display: inline;
+    font-size: 25px;
+}
+
+.caract div{
+    text-align: center;
+    height: 25px;
+    width: 65px;
+}
+
+.caract li{    
+    display: inline-block;    
+    margin: 0 20px;
+    font-size: 25px;
+}
+
+.tipo1{
+    background-color: aqua;
+    display: inline-block;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.tipo2{
+    background-color:#f366b9;;
+    display: inline-block;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.fraqueza1{
+    background-color:purple;
+    display: inline-block;   
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.fraqueza2{
+    background-color:gray;
+    display: inline-block;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 5px; 
+}
+
+.fraqueza3{
+    background-color: yellow;
+    display: inline-block;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-right: 14px; 
+}
+
+.fraqueza4{
+    background-color:green;
+    display: inline-block;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 5px; 
+}
+
+.fraqueza5{
+    background-color: greenyellow;
+    display: inline-block;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 5px; 
+}
+
+main{
+    background-color:rgb(226, 31, 31);
+    height: 70vh;
+    border: solid rgb(228, 228, 71) 5px;
+    border-radius: 25px;
+}
+
+.apresentacao{
+    display: inline-block;
+    text-align: center;   
+    margin: 10px;
+    padding: 20px;
+    border: solid 5px black;
+    border-radius: 50%; 
+    background: linear-gradient(180deg, red 50%, white 50%);
+}
+
+.apresentacao img{
+    display: inline-block;
+}
+
+.apresentacao h1{
+
+    text-align: left;
+    margin-left: 70px;
+    font-size: 40px;
+    font-family: "pokemon_letra";
+    text-decoration: underline;
+    color: black;
+}
+
+.info{
+    display: inline;
+    text-align: justify;
+    position: absolute;
+    bottom: 30vh;
+    left: 23vw;
+    font-size: 18.2px;
+    font-family: "pokemon_letra";
+    font-weight: bold;
+    padding:5px;
+    line-height:20px;
+    
+}
+
+
+footer{
+    background-color: #6336cc;
+    display: block;
+    height: 15vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer p{
+    padding-top: 5px;
+}
+
+.copy{
+    display: inline-block;
+    margin-top: 7vh;
+    font-size: 20px;
+}
